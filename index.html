@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid blue;
+            border-spacing:0;
+        }
+        th{
+            border-bottom: 1px solid green;
+
+        }
+        th,td{
+            padding: 10px;
+            border: 1px solid green;
+        }
+        th{
+            border-color: brown;
+            border-left: 0;
+            border-right: 0;
+        }
+        th:first-child{
+           border-left: 1px solid brown;
+        }
+        th:last-child{
+            border-right: 1px solid brown;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="">
+        <img src="" alt="logo">
+    </a>
+    <nav>
+        <a href="link">link</a>
+        <a href="CSS">CSS</a>
+        <a href="HTML">HTML</a>
+    </nav>
+
+</header>
+<table>
+    <caption>Table 1.1 Demonstration</caption>
+    <thead>
+    <tr>
+        <th>Pat1</th>
+        <th>Pat2</th>
+        <th>Pat3</th>
+        <th>Pat4</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>date1</td>
+        <td>date2</td>
+        <td rowspan="2" colspan="2">date3</td>
+    </tr>
+    <tr>
+        <td>month1</td>
+        <td>month2</td>
+
+    </tr>
+    </tbody>
+
+</table>
+</body>
+</html>
